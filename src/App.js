@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
-import "./style.css";
 import "./App.css";
+import "./style.css"
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -22,7 +22,7 @@ function App() {
     <Router>
       <div className="App" id={load ? "no-scroll" : "scroll"}>
       <Navbar />
-      <Footer />
+      {/* <Footer /> */}
       </div>
     </Router>
     
