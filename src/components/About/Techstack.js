@@ -23,16 +23,19 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        
+        <h2>React</h2>
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <h2>MongoDB</h2>
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <h2>Next.JS</h2>
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <h2>Git</h2>
         <DiGit />
       </Col>
     </Row>

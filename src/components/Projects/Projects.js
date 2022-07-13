@@ -35,7 +35,7 @@ function Projects() {
               imgPath={techBlog}
               isBlog={false}
               title="Tech Blog"
-              description="Tech Blog is used as an entertainment platform where anybody can post info or their knowledge about tech. It uses Handlebars, Node.Js, Express, and Sequelize."
+              description="Tech Blog is used as an entertainment platform where anybody can post info or their knowledge about tech. It uses Handlebars Node.Js, Express, and Sequelize."
               ghLink="https://github.com/Dawsonf18/tech-blog"
               demoLink="https://stark-hollows-36066.herokuapp.com/ "
             />
