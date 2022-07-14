@@ -1,3 +1,6 @@
+# Link to Portfolio
+https://dawsonf18.github.io/dawsons-portfolio/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
