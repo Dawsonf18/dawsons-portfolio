@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dawsons-portfolio/static/css/main.3409c307.css",
+    "main.js": "/dawsons-portfolio/static/js/main.36891c29.js",
+    "static/js/787.1ed0c42c.chunk.js": "/dawsons-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/4.jpeg": "/dawsons-portfolio/static/media/4.359d3b8300d1264a589c.jpeg",
+    "static/media/home-main.svg": "/dawsons-portfolio/static/media/home-main.aad95796f349a72b346d.svg",
+    "static/media/2.jpeg": "/dawsons-portfolio/static/media/2.c42e26a1c2461942e65a.jpeg",
+    "static/media/3.jpeg": "/dawsons-portfolio/static/media/3.c274932bbb6b0a4f829b.jpeg",
+    "static/media/1.jpeg": "/dawsons-portfolio/static/media/1.16f855501447aa62c654.jpeg",
+    "static/media/about.png": "/dawsons-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/SoftwareResume.pdf": "/dawsons-portfolio/static/media/SoftwareResume.1c8410f526332667103b.pdf",
+    "static/media/logo.png": "/dawsons-portfolio/static/media/logo.456073661bf084322639.png",
+    "static/media/avatar.svg": "/dawsons-portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/dawsons-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/dawsons-portfolio/index.html",
+    "main.3409c307.css.map": "/dawsons-portfolio/static/css/main.3409c307.css.map",
+    "main.36891c29.js.map": "/dawsons-portfolio/static/js/main.36891c29.js.map",
+    "787.1ed0c42c.chunk.js.map": "/dawsons-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3409c307.css",
+    "static/js/main.36891c29.js"
+  ]
+}
