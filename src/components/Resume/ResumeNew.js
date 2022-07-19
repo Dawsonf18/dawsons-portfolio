@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+import SimpleForm from "../Contact/SimpleForm";
 import Particle from "../Particle";
 import pdf from "../../Assets/SoftwareResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -12,7 +13,7 @@ const resumeLink =
   "https://docs.google.com/document/d/1kb76b5qTXNSzeg8grDyZtIysVBWGTkWrIgINXMtkq5g/edit?usp=sharing";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState(true);
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -54,6 +55,6 @@ function ResumeNew() {
       </Container>
     </div>
   );
-}
+};
 
 export default ResumeNew;
