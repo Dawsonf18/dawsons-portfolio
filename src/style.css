@@ -257,7 +257,7 @@ button:focus {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-main.svg);
-  background-size:contain;
+  background-size:cover;
   background-position:center right;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -602,7 +602,7 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -610,7 +610,7 @@ button:focus {
 
 .resume {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   justify-content: center;
 }
 
@@ -716,6 +716,11 @@ button:focus {
     transform: scale(1);
   }
 }
+
+/* --------- */
+/* Contact */
+/* --------- */
+
 
 .fork-btn {
   font-size: 1.1em !important;

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import SimpleForm from "../Contact/SimpleForm";
 import Particle from "../Particle";
 import pdf from "../../Assets/SoftwareResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -10,14 +9,14 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://docs.google.com/document/d/1kb76b5qTXNSzeg8grDyZtIysVBWGTkWrIgINXMtkq5g/edit?usp=sharing";
+  "http://localhost:3000/dawsons-portfolio/static/media/SoftwareResume.1c8410f526332667103b.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(true);
 
   useEffect(() => {
     setWidth(window.innerWidth);
-  }, []);
+  }, []); 
 
   return (
     <div>
