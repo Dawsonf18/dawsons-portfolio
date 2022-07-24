@@ -721,6 +721,9 @@ button:focus {
 /* Contact */
 /* --------- */
 
+.contact-form {
+  color: white;
+}
 
 .fork-btn {
   font-size: 1.1em !important;

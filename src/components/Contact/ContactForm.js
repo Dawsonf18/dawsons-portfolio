@@ -1,4 +1,5 @@
 import React from "react";
+import { Validator } from "react";
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2"
@@ -8,13 +9,13 @@ import { Container } from "react-bootstrap";
 
 const SERVICE_ID = "service_p9q2nzm";
 const TEMPLATE_ID = "template_3ann7md";
-const USER_ID = "****************";
+const PUBLIC_KEY = "3J9bzML2NDe6nhljs";
 
 const ContactForm = () => {
 
 const handleOnSubmit = (e) => {
   e.preventDefault();
-  emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+  emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
     .then((result) => {
       console.log(result.text);
       Swal.fire({

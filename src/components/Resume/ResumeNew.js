@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/SoftwareResume.pdf";
+import pdf from "../../Assets/SoftwareResume(2).pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "http://localhost:3000/dawsons-portfolio/static/media/SoftwareResume.1c8410f526332667103b.pdf";
+  "http://localhost:3000/dawsons-portfolio/static/media/SoftwareResume(2).2662c546ee40ada169b7.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(true);
