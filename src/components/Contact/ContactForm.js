@@ -35,7 +35,7 @@ const handleOnSubmit = (e) => {
 
   return (
     <div className= "contact-form">
-      <Container style={{ marginTop: "100%", marginBottom: "110%" }}>
+      <Container style={{ marginTop: "100%", marginBottom: "130%" }}>
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
           id="form-input-control-email"
