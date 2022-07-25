@@ -1,14 +1,14 @@
 # Dawson's Portfolio
   ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
   
-  ## Description 
-    Hello! My name is Dawson Filion, welcome to my portfolio repository. Here's what you can expect to see in my portfolio.
-    * A little bit about me
-    * My skills
-    * Languages and framworks
-    * Projects
-    * Resume
-    * Contact form
+  ## Description
+    Hello! My name is Dawson Filion, welcome to my portfolio repository. Here's what you can expect to see.
+    - A little bit about me
+    - My skills
+    - Languages and framworks
+    - Projects
+    - Resume
+    - Contact form
 
     Enjoy! :)
   ## Table of Contents
