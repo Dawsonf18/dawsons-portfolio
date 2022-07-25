@@ -46,8 +46,8 @@ function Projects() {
               isBlog={false}
               title="Scrypto"
               description="Scrypto is a user friendly interface created with javascript, to allow users to search any stock or cryptocurrency they like."
-              ghLink="https://dawsonf18.github.io/Scrypto/"
-              demoLink="https://github.com/Dawsonf18/Scrypto"
+              ghLink="https://github.com/Dawsonf18/Scrypto"
+              demoLink="https://dawsonf18.github.io/Scrypto/"
             />
           </Col>
           <Col md={4} className="project-card">
