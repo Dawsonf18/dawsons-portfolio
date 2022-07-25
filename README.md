@@ -25,7 +25,6 @@
   Run the server and go to localhost 3000.
   ## License 
   This project is licensed under MIT
-  ## Contributing 
-  
+
   ## Questions
   If you have any questions about this projects, please contact me directly at dawsonfilion21@gmail.com. You can view more of my projects at https://github.com/dawsonf18.
